@@ -5,20 +5,59 @@ export default function Footer() {
     <footer className="bg-ink text-cream/80 pt-16 pb-8 mt-20">
       <div className="max-w-content mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
-          <div className="md:col-span-2">
+          <div className="md:col-span-1">
             <h3 className="font-serif text-cream text-2xl mb-3">
               Pai Márcio <span className="text-gold">de Oxóssi</span>
             </h3>
-            <p className="text-sm leading-relaxed max-w-md text-cream/60">
+            <p className="text-sm leading-relaxed text-cream/60">
               Quatro décadas no comando de multinacionais. Quatro décadas de axé.
-              Hoje, dedico minha experiência integral a ajudar empresários e
-              executivos a tomarem decisões de alto impacto.
             </p>
           </div>
 
           <div>
             <h4 className="text-gold text-sm font-medium uppercase tracking-wider mb-4">
-              Navegação
+              Modalidades
+            </h4>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <Link
+                  href="/produtos/flecha-da-decisao"
+                  className="hover:text-gold transition-colors block"
+                >
+                  Flecha da Decisão
+                  <span className="block text-xs text-cream/40 mt-0.5">
+                    Consulta pontual · R$ 197
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produtos/mapa-de-destino"
+                  className="hover:text-gold transition-colors block"
+                >
+                  Mapa de Destino
+                  <span className="block text-xs text-cream/40 mt-0.5">
+                    Consulta estratégica · R$ 997
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produtos/circulo-do-cacador"
+                  className="hover:text-gold transition-colors block"
+                >
+                  Círculo do Caçador
+                  <span className="block text-xs text-cream/40 mt-0.5">
+                    Acompanhamento · R$ 5.997
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-gold text-sm font-medium uppercase tracking-wider mb-4">
+              Institucional
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
@@ -27,27 +66,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/produtos/flecha-da-decisao"
-                  className="hover:text-gold transition-colors"
-                >
-                  Flecha da Decisão
+                <Link href="/#dois-mundos" className="hover:text-gold transition-colors">
+                  Os dois mundos
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/produtos/mapa-de-destino"
-                  className="hover:text-gold transition-colors"
-                >
-                  Mapa de Destino
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/produtos/circulo-do-cacador"
-                  className="hover:text-gold transition-colors"
-                >
-                  Círculo do Caçador
+                <Link href="/#faq" className="hover:text-gold transition-colors">
+                  Dúvidas frequentes
                 </Link>
               </li>
             </ul>
@@ -63,9 +88,11 @@ export default function Footer() {
               <br />
               <a
                 href="https://wa.me/5511000000000"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gold hover:underline"
               >
-                Falar pelo WhatsApp
+                Falar pelo WhatsApp →
               </a>
             </address>
           </div>
