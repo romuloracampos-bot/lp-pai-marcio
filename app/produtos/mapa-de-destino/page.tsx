@@ -8,7 +8,7 @@ import VSLPlayer from "@/components/VSLPlayer";
 export const metadata: Metadata = {
   title: "Mapa de Destino — Diagnóstico Estratégico de 12 Meses",
   description:
-    "Consulta completa de búzios + Odu regente + PDF personalizado. Os próximos 12 meses da sua vida pessoal e profissional em 60-90min. R$ 997 com garantia de 7 dias.",
+    "Sessão completa de búzios + Odu regente + documento personalizado. Os próximos 12 meses da sua trajetória em 60-90 minutos. R$ 997 com garantia plena de 7 dias.",
 };
 
 export default function MapaDeDestino() {
@@ -21,26 +21,25 @@ export default function MapaDeDestino() {
           <div className="max-w-content mx-auto grid md:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-gold text-xs uppercase tracking-[0.25em] mb-5">
-                Consultoria estratégica · Mais procurado
+                Diagnóstico estratégico · Recomendado
               </p>
               <h1 className="font-serif text-3xl md:text-[2.75rem] leading-[1.1] mb-5 text-cream">
-                Os próximos 12 meses da sua vida em um documento estratégico.
+                Os próximos 12 meses da sua trajetória em um documento estratégico.
               </h1>
               <p className="text-mute text-lg leading-relaxed mb-8 max-w-lg">
-                60 a 90 minutos comigo, búzios completos, Odu regente, e um PDF personalizado que você consulta ao lado do seu planejamento financeiro do ano.
+                Sessão de 60 a 90 minutos, búzios completos, Odu regente, e um documento personalizado para consulta contínua ao lado do seu planejamento financeiro do ano.
               </p>
               <a
                 href="#oferta"
                 className="inline-block bg-gold text-ink px-8 py-4 rounded font-medium hover:bg-gold-dark transition-colors text-sm tracking-wide"
               >
-                Ver o que está incluso →
+                Ver escopo do diagnóstico →
               </a>
               <p className="text-mute-deeper text-xs mt-4">
-                garantia de 7 dias · atendimento online · sigilo absoluto
+                40 anos de sigilo absoluto · Atendimento remoto seguro · Garantia plena de 7 dias
               </p>
             </div>
 
-            {/* VSL do Mapa (criativo específico) */}
             <VSLPlayer placeholder="[VSL Mapa - 60s]" />
           </div>
         </section>
@@ -49,22 +48,79 @@ export default function MapaDeDestino() {
         <section className="py-20 px-6">
           <div className="max-w-prose mx-auto">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              O que é
+              Definição
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight">
-              Não é uma consulta. É um relatório estratégico do seu ano.
+              Não é consulta pontual. É diagnóstico estratégico de 12 meses.
             </h2>
             <div className="space-y-5 text-ink/80 text-lg leading-relaxed">
               <p>
-                Empresários contratam consultorias caras para mapear cenários dos próximos 12 meses do mercado. O Mapa de Destino faz isso para a sua vida — pessoal, profissional, financeira, relacional — usando o sistema oracular mais antigo da humanidade.
+                Empresas contratam consultorias de gestão para mapear cenários dos próximos 12 meses do mercado. O Mapa de Destino aplica a mesma lógica à trajetória individual — nas dimensões pessoal, profissional, financeira e relacional — usando o sistema oracular mais antigo e refinado da humanidade.
               </p>
               <p>
-                A consulta tem duração de 60 a 90 minutos via videochamada. Os búzios são jogados aqui no ilê, com toda a fundamentação da tradição Nagô Ketu. Você recebe a leitura ao vivo, faz perguntas, anota.
+                A sessão tem duração de 60 a 90 minutos, em videochamada. Os búzios são jogados presencialmente no ilê, com toda a fundamentação ritual da tradição Nagô Ketu. A leitura é conduzida ao vivo, com espaço para questões do cliente e aprofundamento das áreas de maior interesse.
               </p>
               <p>
-                Ao final, recebe também um PDF personalizado com o resumo da leitura, o Odu regente do seu ciclo, as áreas de atenção e as janelas de oportunidade dos próximos 12 meses.
+                Ao final, o cliente recebe um documento personalizado com o resumo da leitura, o Odu regente do ciclo, as áreas de atenção e as janelas de oportunidade mapeadas para os próximos 12 meses.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* ===== NOVO: MÉTODO DE DIAGNÓSTICO OXÓSSI ===== */}
+        <section className="py-20 px-6 bg-parchment">
+          <div className="max-w-prose mx-auto">
+            <p className="text-parchment-deep text-xs uppercase tracking-[0.2em] mb-3">
+              Metodologia
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight text-gold-darker">
+              Método de Diagnóstico Oxóssi
+            </h2>
+            <p className="text-parchment-deep text-lg leading-relaxed mb-8">
+              Sistema estruturado em três camadas, desenvolvido ao longo de 40 anos de prática no Candomblé Nagô Ketu e na vida executiva:
+            </p>
+
+            <div className="space-y-8">
+              <div className="border-l-2 border-gold pl-6">
+                <p className="text-gold font-serif text-2xl font-medium mb-2">
+                  01
+                </p>
+                <h3 className="font-serif text-xl text-gold-darker mb-2">
+                  Leitura dos 16 Odus
+                </h3>
+                <p className="text-parchment-deep leading-relaxed">
+                  Fundamentos simbólicos da tradição iorubá, com 256 combinações possíveis de diagnóstico. Cada Odu carrega padrões arquetípicos testados há quatro mil anos de prática oracular.
+                </p>
+              </div>
+
+              <div className="border-l-2 border-gold pl-6">
+                <p className="text-gold font-serif text-2xl font-medium mb-2">
+                  02
+                </p>
+                <h3 className="font-serif text-xl text-gold-darker mb-2">
+                  Contextualização estratégica
+                </h3>
+                <p className="text-parchment-deep leading-relaxed">
+                  Aplicação das leituras ao cenário específico do cliente — trajetória profissional, estrutura societária, dinâmicas relacionais, momento de decisão. A leitura arquetípica é traduzida em termos concretos do caso em análise.
+                </p>
+              </div>
+
+              <div className="border-l-2 border-gold pl-6">
+                <p className="text-gold font-serif text-2xl font-medium mb-2">
+                  03
+                </p>
+                <h3 className="font-serif text-xl text-gold-darker mb-2">
+                  Mapa de ação
+                </h3>
+                <p className="text-parchment-deep leading-relaxed">
+                  Recomendações concretas por área e por período, entregues em documento personalizado. Cada recomendação é datada e priorizada, para uso ao longo dos 12 meses seguintes.
+                </p>
+              </div>
+            </div>
+
+            <p className="text-parchment-deep/70 text-sm leading-relaxed mt-10 pt-6 border-t border-parchment-border italic">
+              O método combina o rigor oracular da tradição Nagô Ketu com a disciplina de diagnóstico desenvolvida em quatro décadas de vida executiva em multinacionais.
+            </p>
           </div>
         </section>
 
@@ -72,7 +128,7 @@ export default function MapaDeDestino() {
         <section className="py-20 px-6 bg-cream-subtle">
           <div className="max-w-content mx-auto max-w-4xl">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              O que você sai sabendo
+              Escopo da entrega
             </p>
             <h2 className="font-serif text-3xl mb-10 leading-tight">
               Seis camadas de diagnóstico.
@@ -80,28 +136,28 @@ export default function MapaDeDestino() {
             <div className="grid md:grid-cols-2 gap-5">
               {[
                 {
-                  t: "O Odu regente do seu ciclo",
-                  d: "Qual energia governa os próximos 12 meses da sua vida e o que ela pede.",
+                  t: "Odu regente do ciclo",
+                  d: "Identificação da energia arquetípica que governa os próximos 12 meses e o que ela demanda do consulente.",
                 },
                 {
                   t: "Diagnóstico do momento atual",
-                  d: "Onde você está, o que está em movimento, o que precisa ser visto.",
+                  d: "Leitura precisa de onde o cliente está posicionado, o que está em movimento e o que requer atenção imediata.",
                 },
                 {
                   t: "Mapa profissional e financeiro",
-                  d: "Janelas de expansão, momentos de prudência, alertas de risco.",
+                  d: "Janelas de expansão, períodos de consolidação e sinais de alerta nos ciclos do ano.",
                 },
                 {
                   t: "Mapa relacional",
-                  d: "Sociedades, parcerias, relações afetivas — o que pede atenção.",
+                  d: "Sociedades, parcerias estratégicas, dinâmicas familiares e relações afetivas com atenção requerida.",
                 },
                 {
                   t: "Áreas de bloqueio",
-                  d: "O que está travando seu fluxo e o que pode ser feito para destravar.",
+                  d: "Identificação do que está travando fluxos e protocolos de destravamento indicados.",
                 },
                 {
                   t: "Recomendações específicas",
-                  d: "Práticas, atitudes e — se for o caso — rituais que apoiam o caminho.",
+                  d: "Práticas, posturas e — quando indicado pelo diagnóstico — rituais complementares que suportam o percurso.",
                 },
               ].map((item, i) => (
                 <div
@@ -118,21 +174,21 @@ export default function MapaDeDestino() {
           </div>
         </section>
 
-        {/* ===== PAINTED PICTURE ===== */}
+        {/* ===== PAINTED PICTURE (tom documental) ===== */}
         <section className="py-20 px-6 bg-ink text-cream">
           <div className="max-w-prose mx-auto">
             <p className="text-gold text-xs uppercase tracking-[0.2em] mb-3">
-              Como vai ser sua vida depois
+              Outcomes observados
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight text-cream">
-              Seis meses depois do Mapa, isso aqui é rotina.
+              Seis meses após o diagnóstico, o padrão observado.
             </h2>
             <div className="space-y-4">
               {[
-                "Você tem um documento estratégico ao lado do seu planejamento financeiro do ano — e consulta antes de cada reunião importante.",
-                "Quando aparece a próxima decisão grande, você já sabe em qual janela do ano está. E decide com mais convicção que seus sócios.",
-                "As oportunidades que o Mapa apontou, você aproveita. Os meses de risco, você recolhe.",
-                "Em dezembro, olha pra trás e percebe que o ano virou exatamente como os búzios falaram.",
+                "O documento passa a ser referência ativa, consultado ao lado do planejamento financeiro do ano antes de cada decisão estratégica relevante.",
+                "Nas decisões subsequentes, o cliente identifica com precisão em qual janela do ciclo se encontra. O tempo até a tomada de decisão reduz. A convicção aumenta.",
+                "As oportunidades mapeadas são aproveitadas no momento de abertura. Os períodos de risco são usados para consolidação, não para expansão.",
+                "Ao final de 12 meses, o padrão observado confirma o diagnóstico inicial. O cliente retorna para renovação do mapa no ciclo seguinte.",
               ].map((text, i) => (
                 <div
                   key={i}
@@ -152,37 +208,37 @@ export default function MapaDeDestino() {
         <section className="py-20 px-6">
           <div className="max-w-prose mx-auto">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              Como funciona
+              Processo
             </p>
             <h2 className="font-serif text-3xl mb-10 leading-tight">
-              Da confirmação à entrega final.
+              Da confirmação à entrega do documento.
             </h2>
             <ol className="space-y-6">
               {[
                 {
                   n: "01",
                   t: "Agendamento",
-                  d: "Você confirma data e horário pelo WhatsApp. Atendo no máximo 8 mapas por semana — agenda costuma ser de 7 a 14 dias.",
+                  d: "Confirmação de data e horário via WhatsApp. Capacidade limitada a 8 mapas semanais — agenda média de 7 a 14 dias.",
                 },
                 {
                   n: "02",
                   t: "Formulário confidencial",
-                  d: "Você preenche um formulário com dados de nascimento e áreas que quer aprofundar. Tudo sob sigilo absoluto.",
+                  d: "Preenchimento de formulário com dados de nascimento e áreas de maior interesse para aprofundamento. Sigilo absoluto.",
                 },
                 {
                   n: "03",
                   t: "Preparação ritual",
-                  d: "No dia anterior, preparo o ilê, acendo as velas de Oxóssi e me concentro especificamente no seu caso.",
+                  d: "No dia anterior, é realizada a preparação específica do ilê e concentração exclusiva no caso do cliente.",
                 },
                 {
                   n: "04",
-                  t: "Consulta ao vivo (60-90min)",
-                  d: "Videochamada. Os búzios são jogados, a leitura é feita, suas perguntas são respondidas em tempo real.",
+                  t: "Sessão ao vivo (60-90 min)",
+                  d: "Videochamada conduzida em tempo real. Os búzios são jogados, a leitura é apresentada, e as questões do cliente são respondidas dentro da sessão.",
                 },
                 {
                   n: "05",
-                  t: "PDF personalizado em até 5 dias",
-                  d: "Resumo escrito do mapa, com Odu regente, áreas de atenção, janelas e recomendações. Você consulta o ano inteiro.",
+                  t: "Documento entregue em até 5 dias úteis",
+                  d: "Resumo escrito do mapa, com Odu regente, áreas de atenção, janelas e recomendações datadas. Material para consulta ao longo dos 12 meses.",
                 },
               ].map((s, i) => (
                 <li key={i} className="flex gap-5">
@@ -203,37 +259,37 @@ export default function MapaDeDestino() {
         <section id="oferta" className="py-20 px-6 bg-ink text-cream">
           <div className="max-w-content mx-auto max-w-3xl">
             <p className="text-gold text-xs uppercase tracking-[0.2em] mb-3">
-              O que você recebe
+              Composição do investimento
             </p>
             <h2 className="font-serif text-3xl md:text-4xl leading-tight mb-10 text-cream">
-              Não é só uma consulta. É um ano inteiro de apoio estratégico.
+              Diagnóstico principal acompanhado de suportes complementares.
             </h2>
 
             <div className="space-y-4 mb-8">
               {[
                 {
-                  title: "Consulta completa de 60 a 90 minutos",
-                  desc: "Búzios + Odu regente + leitura ao vivo via videochamada com suas perguntas respondidas em tempo real.",
+                  title: "Sessão completa de 60 a 90 minutos",
+                  desc: "Búzios + Odu regente + leitura ao vivo em videochamada, com espaço integral para as questões do cliente.",
                   value: "R$ 997",
                 },
                 {
-                  title: "PDF personalizado do seu Mapa de 12 meses",
-                  desc: "Documento estratégico com diagnóstico, janelas de oportunidade e áreas de atenção. Entregue em até 5 dias.",
+                  title: "Documento estratégico de 12 meses",
+                  desc: "PDF personalizado com diagnóstico completo, janelas de oportunidade e áreas de atenção. Entregue em até 5 dias úteis.",
                   value: "incluso",
                 },
                 {
-                  title: "BÔNUS 1: PDF 'Decisões de Alto Impacto'",
-                  desc: "Guia executivo de 30 páginas com os 10 princípios de decisão que apliquei nos meus 40 anos de C-level.",
+                  title: "Documento executivo 'Decisões de Alto Impacto'",
+                  desc: "Guia de 30 páginas com os 10 princípios de decisão aplicados em 40 anos de trajetória C-level.",
                   value: "R$ 197",
                 },
                 {
-                  title: "BÔNUS 2: Consulta de revisão aos 6 meses",
-                  desc: "30 minutos para checar o que mudou no meio do caminho e recalibrar suas decisões com base no novo momento.",
+                  title: "Sessão de revisão aos 6 meses",
+                  desc: "30 minutos para recalibração do mapa a partir do novo momento vivido pelo cliente.",
                   value: "R$ 497",
                 },
                 {
-                  title: "BÔNUS 3: Acesso ao grupo VIP por 30 dias",
-                  desc: "Canal exclusivo no WhatsApp com acesso direto para perguntas complementares logo após sua consulta.",
+                  title: "Acesso ao grupo de apoio por 30 dias",
+                  desc: "Canal exclusivo no WhatsApp com acesso direto para questões complementares imediatamente após a sessão.",
                   value: "R$ 297",
                 },
               ].map((item, i) => (
@@ -257,14 +313,13 @@ export default function MapaDeDestino() {
               ))}
             </div>
 
-            {/* Stack slide */}
             <div className="bg-gold/10 border border-gold/30 rounded-lg p-8 text-center">
-              <p className="text-mute text-sm mb-2">Valor total dos itens:</p>
+              <p className="text-mute text-sm mb-2">Valor individualizado dos itens:</p>
               <p className="font-serif text-2xl text-mute line-through mb-4">
                 R$ 1.988
               </p>
               <p className="text-gold text-xs uppercase tracking-wider mb-2">
-                Seu investimento hoje
+                Investimento no pacote integral
               </p>
               <p className="font-serif text-5xl md:text-6xl text-cream mb-4">
                 R$ 997
@@ -273,15 +328,15 @@ export default function MapaDeDestino() {
                 à vista via PIX ou em 12x de R$ 99,70 no cartão
               </p>
               <a
-                href="https://wa.me/5511000000000?text=Quero%20agendar%20o%20Mapa%20de%20Destino."
+                href="https://wa.me/5511987955101?text=Gostaria%20de%20agendar%20o%20Mapa%20de%20Destino."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-gold text-ink px-10 py-4 rounded font-medium hover:bg-gold-dark transition-colors text-sm tracking-wide"
               >
-                Agendar meu mapa →
+                Solicitar agendamento →
               </a>
               <p className="text-mute-deeper text-xs mt-4">
-                Agenda limitada · 8 mapas por semana
+                Capacidade limitada · 8 diagnósticos semanais
               </p>
             </div>
           </div>
@@ -294,14 +349,37 @@ export default function MapaDeDestino() {
               Garantia
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-6 text-gold-darker">
-              7 dias incondicionais.
+              Garantia plena de 7 dias.
             </h2>
             <p className="text-parchment-deep text-lg leading-relaxed mb-4">
-              Se nas primeiras 24h após sua consulta você sentir que não recebeu clareza estratégica, devolvo 100% do seu investimento.
+              Se nas primeiras 24 horas após a sessão o cliente identificar ausência de clareza estratégica, é efetuada a devolução integral do investimento.
             </p>
             <p className="text-parchment-deep/80 text-base leading-relaxed">
-              Você fica com o PDF, com a leitura gravada e com o seu dinheiro de volta. É a regra da casa há 40 anos: não fica cliente insatisfeito.
+              O material entregue permanece com o cliente. Regra da casa há 40 anos: não há cliente insatisfeito.
             </p>
+          </div>
+        </section>
+
+        {/* ===== INFORMAÇÕES CONTRATUAIS ===== */}
+        <section className="py-12 px-6 bg-ink-softer text-cream">
+          <div className="max-w-content mx-auto max-w-3xl">
+            <p className="text-gold text-xs uppercase tracking-[0.2em] mb-4 text-center">
+              Informações contratuais
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 text-center text-sm text-mute">
+              <div>
+                <p className="text-cream font-medium mb-1">Nota fiscal</p>
+                <p>Emissão de NFS-e em até 48h após confirmação do pagamento</p>
+              </div>
+              <div>
+                <p className="text-cream font-medium mb-1">Contratação PJ</p>
+                <p>Orçamento formal, contrato e NF para pessoa jurídica</p>
+              </div>
+              <div>
+                <p className="text-cream font-medium mb-1">Sigilo contratual</p>
+                <p>Termo de confidencialidade (NDA) disponível para contratos corporativos</p>
+              </div>
+            </div>
           </div>
         </section>
       </main>

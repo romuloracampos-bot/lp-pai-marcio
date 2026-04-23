@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import VSLPlayer from "@/components/VSLPlayer";
 
 export const metadata: Metadata = {
-  title: "Flecha da Decisão — Consulta Pontual de Búzios",
+  title: "Flecha da Decisão — Diagnóstico Pontual",
   description:
-    "Uma pergunta específica. Uma resposta precisa em áudio. Entrega em até 48h no seu WhatsApp. R$ 197 com garantia de refazer se não houver clareza.",
+    "Uma questão específica, uma resposta em áudio detalhado entregue em até 48h no seu WhatsApp. R$ 197 com garantia plena de 7 dias.",
 };
 
 export default function FlechaDaDecisao() {
@@ -24,25 +24,24 @@ export default function FlechaDaDecisao() {
                 Consulta pontual · R$ 197
               </p>
               <h1 className="font-serif text-3xl md:text-[2.75rem] leading-[1.1] mb-5 text-cream">
-                A decisão que você adia há 3 meses pode ser resolvida em 48 horas.
+                Diagnóstico pontual para decisões em suspensão.
               </h1>
               <p className="text-mute text-lg leading-relaxed mb-8 max-w-lg">
-                Uma pergunta específica. Uma resposta precisa. Áudio detalhado direto no seu WhatsApp.
+                Uma questão específica. Uma resposta precisa em áudio detalhado, entregue em até 48 horas no WhatsApp do cliente.
               </p>
               <a
-                href="https://wa.me/5511000000000?text=Quero%20agendar%20uma%20Flecha%20da%20Decis%C3%A3o."
+                href="https://wa.me/5511987955101?text=Gostaria%20de%20solicitar%20uma%20Flecha%20da%20Decis%C3%A3o."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-gold text-ink px-8 py-4 rounded font-medium hover:bg-gold-dark transition-colors text-sm tracking-wide"
               >
-                Quero fazer minha pergunta →
+                Solicitar consulta →
               </a>
               <p className="text-mute-deeper text-xs mt-4">
-                resposta em até 48h · garantia de clareza
+                40 anos de sigilo absoluto · Resposta em até 48h · Garantia plena de 7 dias
               </p>
             </div>
 
-            {/* VSL da Flecha */}
             <VSLPlayer placeholder="[VSL Flecha - 30s]" />
           </div>
         </section>
@@ -51,32 +50,28 @@ export default function FlechaDaDecisao() {
         <section className="py-20 px-6">
           <div className="max-w-prose mx-auto">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              Para quem é
+              Indicação
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight">
-              Quando você precisa de uma resposta — não de um discurso.
+              Quando o cliente precisa de uma resposta objetiva — não de análise ampla.
             </h2>
             <div className="space-y-5 text-ink/80 text-lg leading-relaxed">
               <p>
-                A Flecha da Decisão é a consulta certa quando você tem uma pergunta específica e precisa de um diagnóstico direto. Sem rodeios, sem leitura de carma, sem promessa de futuro distante.
+                A Flecha da Decisão é o formato indicado para casos em que há uma questão específica em curso, e o consulente precisa de diagnóstico direto, sem o escopo estendido de um Mapa de 12 meses.
               </p>
-              <p>Os pedidos mais frequentes incluem:</p>
+              <p>As questões mais frequentes:</p>
               <ul className="space-y-3 pl-6 border-l-2 border-gold">
                 <li>
-                  <strong>Negócios:</strong> Aceito essa proposta? Esse sócio é
-                  confiável? Abro a empresa agora ou espero?
+                  <strong>Negócios:</strong> aceitar uma proposta em análise, avaliar a confiabilidade de um sócio, definir o momento de abertura ou expansão de uma operação.
                 </li>
                 <li>
-                  <strong>Carreira:</strong> Aceito essa oferta de emprego? Mudo
-                  de cidade? Faço a transição agora?
+                  <strong>Carreira:</strong> decidir sobre uma proposta em aberto, mudança de cidade, transição de área ou setor.
                 </li>
                 <li>
-                  <strong>Relações:</strong> Essa pessoa é do meu caminho? Volto
-                  ou sigo? Levo a sério ou solto?
+                  <strong>Relações:</strong> avaliar um vínculo em construção ou reconstrução, dinâmicas familiares ou societárias específicas.
                 </li>
                 <li>
-                  <strong>Saúde e energia:</strong> O que meu corpo está pedindo?
-                  Por que esse cansaço?
+                  <strong>Saúde e energia:</strong> identificar o que o corpo está sinalizando, causas subjacentes de cansaço ou bloqueios específicos.
                 </li>
               </ul>
             </div>
@@ -87,32 +82,32 @@ export default function FlechaDaDecisao() {
         <section className="py-20 px-6 bg-cream-subtle">
           <div className="max-w-prose mx-auto">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              Como funciona
+              Processo
             </p>
             <h2 className="font-serif text-3xl mb-10 leading-tight">
-              Quatro passos simples.
+              Quatro etapas, resposta em 48 horas.
             </h2>
             <ol className="space-y-6">
               {[
                 {
                   n: "01",
-                  t: "Você confirma o pagamento",
-                  d: "Via PIX, cartão ou link. Em seguida, recebe um formulário confidencial no WhatsApp.",
+                  t: "Confirmação do pagamento",
+                  d: "Via PIX, cartão ou link. Em seguida, o cliente recebe um formulário confidencial no WhatsApp para envio da questão.",
                 },
                 {
                   n: "02",
-                  t: "Envia sua pergunta",
-                  d: "Por mensagem ou áudio. Quanto mais específica, mais precisa será a resposta dos búzios.",
+                  t: "Envio da questão",
+                  d: "Por mensagem escrita ou áudio. Quanto mais específica e contextualizada, mais precisa a resposta dos búzios.",
                 },
                 {
                   n: "03",
-                  t: "Pai Márcio joga os búzios",
-                  d: "No ilê, com toda a fundamentação tradicional. Concentrado especificamente no seu caso.",
+                  t: "Sessão de búzios",
+                  d: "Realizada no ilê, com toda a fundamentação ritual. Concentração exclusiva no caso apresentado.",
                 },
                 {
                   n: "04",
-                  t: "Você recebe a resposta",
-                  d: "Áudio detalhado de 15 a 20 minutos no seu WhatsApp, em até 48h. Pode ouvir quantas vezes quiser.",
+                  t: "Entrega da resposta",
+                  d: "Áudio detalhado de 15 a 20 minutos entregue no WhatsApp do cliente em até 48 horas. Disponível para escuta quantas vezes forem necessárias.",
                 },
               ].map((s, i) => (
                 <li key={i} className="flex gap-5">
@@ -138,18 +133,18 @@ export default function FlechaDaDecisao() {
               </p>
               <p className="font-serif text-6xl text-ink mb-2">R$ 197</p>
               <p className="text-ink/60 mb-8">
-                PIX à vista ou em até 3x no cartão
+                À vista via PIX ou em até 3x no cartão
               </p>
               <a
-                href="https://wa.me/5511000000000?text=Quero%20agendar%20uma%20Flecha%20da%20Decis%C3%A3o."
+                href="https://wa.me/5511987955101?text=Gostaria%20de%20solicitar%20uma%20Flecha%20da%20Decis%C3%A3o."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-ink hover:bg-ink-softer text-cream px-10 py-4 rounded font-medium transition-colors"
               >
-                Agendar pelo WhatsApp →
+                Solicitar consulta →
               </a>
               <p className="text-ink/50 text-xs mt-6">
-                Resposta em até 48 horas · Garantia de refazer se não houver clareza
+                Resposta em até 48 horas · Garantia de nova leitura em caso de ausência de clareza
               </p>
             </div>
           </div>

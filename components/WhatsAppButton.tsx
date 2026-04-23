@@ -2,9 +2,9 @@
 
 export default function WhatsAppButton() {
   const message = encodeURIComponent(
-    "Axé! Vim pelo site e quero saber mais sobre as consultas com Pai Márcio."
+    "Gostaria de saber mais sobre as modalidades de atendimento com Pai Márcio."
   );
-  const phone = "5511000000000"; // SUBSTITUIR pelo número real do Márcio
+  const phone = "5511987955101";
 
   return (
     <a

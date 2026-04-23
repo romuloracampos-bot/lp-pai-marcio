@@ -119,7 +119,7 @@ export default function RootLayout({
                     addressCountry: "BR",
                   },
                   priceRange: "R$$",
-                  telephone: "+5511000000000",
+                  telephone: "+5511987955101",
                 },
               ],
             }),

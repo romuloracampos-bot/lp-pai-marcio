@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import VSLPlayer from "@/components/VSLPlayer";
 
 export const metadata: Metadata = {
-  title: "Círculo do Caçador — Mentoria Espiritual Anual",
+  title: "Círculo do Caçador — Acompanhamento Estratégico Anual",
   description:
-    "Acompanhamento espiritual exclusivo de 12 meses para quem decide grande o ano todo. Consultas mensais, acesso direto, rituais inclusos. 8 vagas por ano.",
+    "Acompanhamento exclusivo de 12 meses para quem toma decisões de alto impacto de forma contínua. 8 vagas anuais. Conversa preliminar obrigatória.",
 };
 
 export default function CirculoDoCacador() {
@@ -21,28 +21,27 @@ export default function CirculoDoCacador() {
           <div className="max-w-content mx-auto grid md:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-gold text-xs uppercase tracking-[0.25em] mb-5">
-                Acompanhamento exclusivo · 8 vagas/ano
+                Acompanhamento anual · 8 vagas
               </p>
               <h1 className="font-serif text-3xl md:text-[2.75rem] leading-[1.1] mb-5 text-cream">
-                Tem gente querendo seu lugar. Você sabe disso.
+                Patrimônio exige vigilância contínua.
               </h1>
               <p className="text-mute text-lg leading-relaxed mb-8 max-w-lg">
-                Acompanhamento espiritual contínuo para quem não toma uma decisão grande por ano — toma várias. E precisa de quem esteja ao lado o ano inteiro.
+                Acompanhamento estratégico de 12 meses para empresários e executivos que tomam decisões de alto impacto de forma contínua — e precisam de leitura qualificada ao longo de todo o ciclo.
               </p>
               <a
-                href="https://wa.me/5511000000000?text=Quero%20saber%20mais%20sobre%20o%20C%C3%ADrculo%20do%20Ca%C3%A7ador."
+                href="https://wa.me/5511987955101?text=Gostaria%20de%20agendar%20uma%20conversa%20preliminar%20sobre%20o%20C%C3%ADrculo%20do%20Ca%C3%A7ador."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-gold text-ink px-8 py-4 rounded font-medium hover:bg-gold-dark transition-colors text-sm tracking-wide"
               >
-                Conversar com Pai Márcio →
+                Agendar conversa preliminar →
               </a>
               <p className="text-mute-deeper text-xs mt-4">
-                conversa prévia obrigatória · vagas limitadas
+                40 anos de sigilo absoluto · Ingresso por conversa prévia · Capacidade limitada
               </p>
             </div>
 
-            {/* VSL do Círculo */}
             <VSLPlayer placeholder="[VSL Círculo - 45s]" />
           </div>
         </section>
@@ -51,20 +50,20 @@ export default function CirculoDoCacador() {
         <section className="py-20 px-6">
           <div className="max-w-prose mx-auto">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              Para quem é
+              Perfil indicado
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight">
-              Quando uma consulta por ano não é suficiente.
+              Quando uma consulta anual não é suficiente.
             </h2>
             <div className="space-y-5 text-ink/80 text-lg leading-relaxed">
               <p>
-                O Círculo do Caçador é para quem opera no ritmo de quem decide grande continuamente: empresários em fase de expansão, executivos em cargos de comando, profissionais liberais com patrimônio em jogo, figuras públicas que precisam de proteção ativa.
+                O Círculo do Caçador é o formato indicado para perfis que operam no ritmo de quem toma decisões relevantes continuamente: empresários em fase de expansão, executivos em cargos de comando, profissionais liberais com patrimônio significativo em gestão, figuras públicas que demandam proteção ativa.
               </p>
               <p>
-                É o nível de acompanhamento que eu mesmo gostaria de ter tido quando estava no comando de empresas. Acesso direto, leitura contínua, blindagem ativa.
+                É o nível de acompanhamento que eu próprio gostaria de ter acessado durante minhas quatro décadas no comando de empresas. Acesso direto, leitura contínua do ciclo, acompanhamento ativo nas janelas de decisão.
               </p>
               <p>
-                Por limite de atenção e qualidade do atendimento, mantenho apenas 8 clientes ativos simultaneamente. Sempre.
+                Por limite de atenção exclusiva e qualidade do atendimento, mantenho apenas 8 clientes ativos simultaneamente. Essa capacidade é preservada há 25 anos.
               </p>
             </div>
           </div>
@@ -74,32 +73,32 @@ export default function CirculoDoCacador() {
         <section className="py-20 px-6 bg-cream-subtle">
           <div className="max-w-content mx-auto max-w-3xl">
             <p className="text-ink/50 text-xs uppercase tracking-[0.2em] mb-3">
-              O que inclui
+              Escopo do acompanhamento
             </p>
             <h2 className="font-serif text-3xl mb-10 leading-tight">
-              12 meses, cinco frentes de acompanhamento.
+              12 meses em cinco frentes de atuação.
             </h2>
             <div className="space-y-4">
               {[
                 {
-                  t: "1 Mapa de Destino completo no início",
-                  d: "Consulta inicial de 90 minutos para mapear o ciclo dos próximos 12 meses e definir os pontos de atenção.",
+                  t: "Mapa de Destino completo no ingresso",
+                  d: "Diagnóstico inicial de 90 minutos para mapear o ciclo dos próximos 12 meses e definir pontos de atenção prioritários.",
                 },
                 {
-                  t: "12 consultas mensais (30 min cada)",
-                  d: "Uma vez por mês, jogo dos búzios para checar onde você está, o que mudou e o que vem.",
+                  t: "12 sessões mensais (30 min cada)",
+                  d: "Uma sessão por mês com jogo de búzios para acompanhamento contínuo: confirmação do diagnóstico, ajustes de rota, leitura de mudanças no ciclo.",
                 },
                 {
                   t: "Acesso direto via WhatsApp",
-                  d: "Para perguntas pontuais entre as consultas — quando algo urgente surge e você precisa de uma leitura rápida.",
+                  d: "Para questões pontuais entre as sessões mensais — decisões urgentes que demandam leitura rápida antes de uma reunião ou assinatura.",
                 },
                 {
                   t: "2 rituais inclusos no ano",
-                  d: "Conforme diagnóstico: aniversário (Ritual da Porta Aberta) e virada de ano (Ritual do Escudo de Oxóssi).",
+                  d: "Indicados conforme diagnóstico: Ritual da Porta Aberta (aniversário) e Ritual do Escudo de Oxóssi (virada de ano). Rituais adicionais, quando necessários, são tratados individualmente.",
                 },
                 {
                   t: "Prioridade absoluta na agenda",
-                  d: "Quando precisar de uma consulta extra, entra antes da fila normal.",
+                  d: "Solicitações de sessão extra são atendidas com precedência sobre a fila regular, respeitando a capacidade de preparação ritual.",
                 },
               ].map((item, i) => (
                 <div
@@ -126,17 +125,17 @@ export default function CirculoDoCacador() {
               Processo de ingresso
             </p>
             <h2 className="font-serif text-3xl md:text-4xl mb-8 leading-tight text-cream">
-              Não é venda rápida. Conversamos antes de você entrar.
+              Sem contratação direta. Sempre precedida por conversa preliminar.
             </h2>
             <div className="space-y-5 text-mute text-lg leading-relaxed">
               <p>
-                Por ser um acompanhamento de longo prazo, o ingresso no Círculo passa por uma conversa inicial gratuita de 20 minutos.
+                Por tratar-se de acompanhamento de longo prazo, o ingresso no Círculo passa obrigatoriamente por uma conversa preliminar de 20 minutos, sem custo.
               </p>
               <p>
-                Nessa conversa, alinho expectativas, entendo seu momento atual, explico em detalhes como funciona o acompanhamento — e avalio se o formato faz sentido para você neste momento.
+                Essa conversa tem três funções: alinhamento de expectativas, entendimento do momento atual do candidato e avaliação conjunta da adequação do formato ao caso específico. A decisão de ingresso é tomada de ambos os lados.
               </p>
               <p>
-                Nem todo mundo que quer entrar, entra. E nem todo mundo que entra precisa ficar o ano inteiro. O compromisso é com o resultado, não com o contrato.
+                Nem todos os interessados ingressam, e nem todos os ingressantes permanecem o ano inteiro. O compromisso é com o resultado do cliente, não com a continuidade do contrato.
               </p>
             </div>
           </div>
@@ -154,16 +153,39 @@ export default function CirculoDoCacador() {
                 À vista ou em 12x de R$ 599 no cartão
               </p>
               <a
-                href="https://wa.me/5511000000000?text=Quero%20saber%20mais%20sobre%20o%20C%C3%ADrculo%20do%20Ca%C3%A7ador."
+                href="https://wa.me/5511987955101?text=Gostaria%20de%20agendar%20uma%20conversa%20preliminar%20sobre%20o%20C%C3%ADrculo%20do%20Ca%C3%A7ador."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-ink hover:bg-ink-softer text-cream px-10 py-4 rounded font-medium transition-colors"
               >
-                Conversar com Pai Márcio →
+                Agendar conversa preliminar →
               </a>
               <p className="text-ink/50 text-xs mt-6">
-                Vagas limitadas · Conversa prévia obrigatória
+                Capacidade limitada a 8 clientes ativos · Conversa preliminar obrigatória
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== INFORMAÇÕES CONTRATUAIS ===== */}
+        <section className="py-12 px-6 bg-ink-softer text-cream">
+          <div className="max-w-content mx-auto max-w-3xl">
+            <p className="text-gold text-xs uppercase tracking-[0.2em] mb-4 text-center">
+              Informações contratuais
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 text-center text-sm text-mute">
+              <div>
+                <p className="text-cream font-medium mb-1">Contrato anual</p>
+                <p>Contrato formal de prestação de serviços com cláusula de sigilo</p>
+              </div>
+              <div>
+                <p className="text-cream font-medium mb-1">Contratação PJ</p>
+                <p>Faturamento via CNPJ com emissão de NFS-e mensal</p>
+              </div>
+              <div>
+                <p className="text-cream font-medium mb-1">NDA corporativo</p>
+                <p>Termo de confidencialidade disponível em todos os contratos</p>
+              </div>
             </div>
           </div>
         </section>

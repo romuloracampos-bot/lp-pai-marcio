@@ -176,7 +176,7 @@ export default function Header({ minimal = false }: HeaderProps) {
             </Link>
 
             <a
-              href="https://wa.me/5511000000000"
+              href="https://wa.me/5511987955101"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
