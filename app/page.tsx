@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
 import FAQItem from "@/components/FAQItem";
 import VSLPlayer from "@/components/VSLPlayer";
+import InlineCTA from "@/components/InlineCTA";
 
 export default function Home() {
   return (
@@ -104,6 +105,15 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO 1 — após cenários ===== */}
+        <InlineCTA
+          eyebrow="Se algum cenário reflete seu momento"
+          headline="O diagnóstico começa com uma conversa."
+          whatsappMessage="Olá. Vim pelo site e gostaria de entender qual modalidade é indicada para o meu momento atual."
+          buttonLabel="Iniciar conversa"
+          variant="dark"
+        />
 
         {/* ===== SEÇÃO 02 - OS DOIS MUNDOS ===== */}
         <section id="dois-mundos" className="py-20 md:py-24 px-6 bg-cream-subtle">
@@ -219,6 +229,15 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO 2 — após Os Dois Mundos ===== */}
+        <InlineCTA
+          eyebrow="Conhecer as modalidades"
+          headline="Três formatos. Uma metodologia. A mesma precisão."
+          whatsappMessage="Olá. Gostaria de conhecer as modalidades de atendimento e saber qual se aplica ao meu caso."
+          buttonLabel="Falar sobre as modalidades"
+          variant="light"
+        />
 
         {/* ===== SEÇÃO 03 - POR QUE BÚZIOS (linguagem documental) ===== */}
         <section className="py-20 md:py-24 px-6 bg-parchment">
@@ -458,6 +477,15 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO 3 — após depoimentos ===== */}
+        <InlineCTA
+          eyebrow="A próxima decisão é sua"
+          headline="Antes de agendar, conversamos sobre o seu caso."
+          whatsappMessage="Olá. Li os depoimentos e gostaria de conversar sobre o meu caso antes de agendar."
+          buttonLabel="Iniciar conversa"
+          variant="dark"
+        />
 
         {/* ===== SEÇÃO 08 - GARANTIA + ESCASSEZ ===== */}
         <section className="py-16 md:py-20 px-6 bg-parchment">

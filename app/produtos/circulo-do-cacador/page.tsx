@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import VSLPlayer from "@/components/VSLPlayer";
+import InlineCTA from "@/components/InlineCTA";
 
 export const metadata: Metadata = {
   title: "Círculo do Caçador — Acompanhamento Estratégico Anual",
@@ -117,6 +118,15 @@ export default function CirculoDoCacador() {
             </div>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO — após O que inclui ===== */}
+        <InlineCTA
+          eyebrow="Ingresso por avaliação"
+          headline="Acompanhamento contínuo exige alinhamento prévio."
+          whatsappMessage="Olá. Gostaria de agendar uma conversa preliminar sobre o Círculo do Caçador."
+          buttonLabel="Agendar conversa preliminar"
+          variant="parchment"
+        />
 
         {/* ===== PROCESSO DE INGRESSO ===== */}
         <section className="py-20 px-6 bg-ink text-cream">

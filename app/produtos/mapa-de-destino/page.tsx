@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import VSLPlayer from "@/components/VSLPlayer";
+import InlineCTA from "@/components/InlineCTA";
 
 export const metadata: Metadata = {
   title: "Mapa de Destino — Diagnóstico Estratégico de 12 Meses",
@@ -124,6 +125,15 @@ export default function MapaDeDestino() {
           </div>
         </section>
 
+        {/* ===== CTA INTERMEDIÁRIO — após Método ===== */}
+        <InlineCTA
+          eyebrow="Pronto para iniciar"
+          headline="O Método aplicado ao seu caso específico."
+          whatsappMessage="Olá. Gostaria de solicitar o agendamento do Mapa de Destino."
+          buttonLabel="Solicitar agendamento"
+          variant="dark"
+        />
+
         {/* ===== SEIS CAMADAS ===== */}
         <section className="py-20 px-6 bg-cream-subtle">
           <div className="max-w-content mx-auto max-w-4xl">
@@ -203,6 +213,15 @@ export default function MapaDeDestino() {
             </div>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO — após Outcomes ===== */}
+        <InlineCTA
+          eyebrow="Próximo passo"
+          headline="O mesmo padrão pode começar a operar no seu ciclo."
+          whatsappMessage="Olá. Gostaria de agendar o Mapa de Destino e iniciar o diagnóstico dos próximos 12 meses."
+          buttonLabel="Ver disponibilidade na agenda"
+          variant="parchment"
+        />
 
         {/* ===== COMO FUNCIONA ===== */}
         <section className="py-20 px-6">

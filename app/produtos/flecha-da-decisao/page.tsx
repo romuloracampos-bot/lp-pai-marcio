@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import VSLPlayer from "@/components/VSLPlayer";
+import InlineCTA from "@/components/InlineCTA";
 
 export const metadata: Metadata = {
   title: "Flecha da Decisão — Diagnóstico Pontual",
@@ -123,6 +124,15 @@ export default function FlechaDaDecisao() {
             </ol>
           </div>
         </section>
+
+        {/* ===== CTA INTERMEDIÁRIO — após Processo ===== */}
+        <InlineCTA
+          eyebrow="Tem uma questão em mente"
+          headline="Uma pergunta específica. Uma resposta precisa em 48 horas."
+          whatsappMessage="Olá. Tenho uma questão específica e gostaria de solicitar uma Flecha da Decisão."
+          buttonLabel="Enviar minha questão"
+          variant="dark"
+        />
 
         {/* ===== CTA + PREÇO ===== */}
         <section className="py-20 px-6">
